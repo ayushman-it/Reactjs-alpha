@@ -1,17 +1,12 @@
 function Header(){
     return(
-        <header className="p-2 border-bottom">
-            <div className="container">
-                <div className="row align-items-center">
-                    <div className="col-md-6">
-                        <h3>Website Logo</h3>
-                    </div>
-                    <div className="col-md-6">
-                        <p>Lorem ipsum dolor sit.</p>
-                    </div>
-                </div>
+        <>
+        <nav class="navbar bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Navbar</a>
             </div>
-        </header>
+        </nav>
+        </>
     )
 }
 
