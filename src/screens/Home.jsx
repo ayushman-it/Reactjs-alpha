@@ -1,3 +1,4 @@
+import Button from "../component/Button/Button";
 
 const products = [
     {
@@ -120,6 +121,10 @@ function Home() {
                                 <button className="btn btn-dark rounded-0 btn-lg" onClick={handleClick}>
                                     Get Started
                                 </button>
+                                
+                                <Button btnType="text" btnTxt="Get Started" customClass="btn-p-primary" />
+
+
                                 <button className="btn btn-primary rounded-0 btn-lg" onClick={checkAge}>
                                     Check Age
                                 </button>

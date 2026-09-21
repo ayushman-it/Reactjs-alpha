@@ -1,0 +1,10 @@
+.btn-custom{
+    color: white;
+    padding: 10px 30px;
+    border: none;
+}
+
+.btn-p-primary{
+    background-color: blue;
+    color: white;
+}

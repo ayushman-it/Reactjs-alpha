@@ -1,4 +1,4 @@
-import { Links } from "react-router";
+import { Link } from "react-router";
 
 
 function Navigation() {
